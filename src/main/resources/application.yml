@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: flyway-demo
+
+#  datasource setting
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo_db
+    username: user
+    password: password
+
